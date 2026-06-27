@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "probioscore"
+version = "1.0"
+description = "ProbioScore portable AHP plus FCE probiogenomic calculator"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "openpyxl",
+  "matplotlib"
+]
+
+[project.scripts]
+probioscore = "probioscore.cli.run_probioscore:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["probioscore*"]
+
+[tool.setuptools.package-data]
+"probioscore" = [
+  "config/*.json",
+  "config/*.tsv",
+  "curated_tables/*.tsv",
+  "docs/*.md",
+  "tests/fixtures_v4_mini/*.tsv"
+]

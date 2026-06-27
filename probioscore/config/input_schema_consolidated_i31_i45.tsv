@@ -1,0 +1,11 @@
+column	required	observed_dtype	used_for_scoring	role
+genome_id	True	str	True	input_or_audit_field
+ProbioScore_Status	True	str	True	input_or_audit_field
+expected_class	True	str	False	input_or_audit_field
+mu_Risk	True	float64	True	input_or_audit_field
+mu_Pathogen_Total	True	float64	True	input_or_audit_field
+mu_Benefit_Final	True	float64	True	input_or_audit_field
+risk_non_compensable	True	int64	True	input_or_audit_field
+risk_review_required	True	int64	True	input_or_audit_field
+decision_rule_trace	True	str	True	input_or_audit_field
+probml_priority	True	bool	False	input_or_audit_field

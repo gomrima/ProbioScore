@@ -1,0 +1,29 @@
+# Build context exclusions for the ProbioScore I45 Docker image.
+.git/
+.gitignore
+.github/
+.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local outputs and history dumps are not needed inside the container.
+out/
+*.zip
+
+# IDE residue
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

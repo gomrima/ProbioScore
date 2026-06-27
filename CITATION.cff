@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "If you use ProbioScore in your research, please cite this software as below."
+title: "ProbioScore portable calculator"
+version: "1.0"
+date-released: "2026-06-27"
+license: MIT
+type: software
+repository-code: "https://github.com/gomrima/ProbioScore"
+abstract: >-
+  ProbioScore is a deterministic probiogenomic triage calculator that
+  applies a decoupled AHP and FCE decision layer to V4 pipeline outputs,
+  followed by a frozen I45 governance layer built from five expert curated
+  tables (gold standard labels, independent neutral environmental taxon
+  prior, strain-level probiotic evidence, release exception v2, risk
+  reclassification). The package implements both a benchmark curated mode
+  and a prospective frozen mode. ProbML is included only as a comparator.
+    This release is not a clinical safety certificate. The source repository is
+    https://github.com/gomrima/ProbioScore; no archival DOI has been assigned yet.
+authors:
+  - family-names: Gomri
+    given-names: Mohamed Amine
+    affiliation: "Institute of Nutrition, Food and Agri-Food Technologies (INATAA), University of Constantine 1 Frères Mentouri (UC1FM), 7th kilometre, Setif Road, 25000, Constantine, Algeria"
+  - family-names: Ounissi
+    given-names: Nour El Houda
+    affiliation: "Institute of Nutrition, Food and Agri-Food Technologies (INATAA), University of Constantine 1 Frères Mentouri (UC1FM), 7th kilometre, Setif Road, 25000, Constantine, Algeria"
+  - family-names: "El Hadef El Okki"
+    given-names: Mohamed
+    affiliation: "Institute of Nutrition, Food and Agri-Food Technologies (INATAA), University of Constantine 1 Frères Mentouri (UC1FM), 7th kilometre, Setif Road, 25000, Constantine, Algeria"
+keywords:
+  - probiotics
+  - probiogenomics
+  - bacterial genomics
+  - AHP
+  - fuzzy comprehensive evaluation
+  - safety screening
+  - bioinformatics
+  - reproducible research
+  - benchmark curated
+  - prospective frozen
+preferred-citation:
+  type: software
+  title: "ProbioScore: an Analytic Hierarchy Process and Fuzzy Comprehensive Evaluation Framework for Safety-Aware Probiotic Candidate Triage from Bacterial Genomes"
+  version: "1.0"
+  year: 2026
+  authors:
+    - family-names: Gomri
+      given-names: Mohamed Amine
+	- family-names: Ounissi
+      given-names: Nour El Houda
+    - family-names: "El Hadef El Okki"
+      given-names: Mohamed
+identifiers:
+  - type: other
+    value: "engine_true_fce_sha256:d2cb2d9daa98021d2242c31f4fb19d510acd01796f42fc894df835b8712a8ed7"
+    description: "SHA256 of the frozen true_fce_engine.py module"
+  - type: other
+    value: "engine_consolidated_sha256:c06a45cdfbcff7481941d57757d2b49f72270c5a26496dec3620fcd6d8d2ab40"
+    description: "SHA256 of the frozen consolidated_engine.py module"
+  - type: other
+    value: "ahp_weights_sha256:5b122974a3fecfcfe5cd866af876568a42a33b3821a5edc9fc4afd473492e24f"
+    description: "SHA256 of the CR0.10 AHP weights JSON"
+  - type: other
+    value: "lockfile_sha256:94d913d50e9890aefae77e88770f120b325c80306d1a19fdfeaff56629279d67"
+    description: "SHA256 of the frozen selected thresholds lockfile v1"
+  - type: other
+    value: "gold_standard_curated_labels_sha256:53b3c508489115b585ef9fdd1713503de92a4f676e6e48494f35ca0386900281"
+    description: "SHA256 of the curated gold standard labels TSV"
+  - type: other
+    value: "neutral_or_environmental_taxon_prior_sha256:9f50c013482f1f2615ea571f908d54a48990f8f315264e7b76428e7594a052ea"
+    description: "SHA256 of the independent neutral environmental taxon prior TSV"
+  - type: other
+    value: "curated_strain_level_probiotic_evidence_sha256:2b6092620582575ef71fe42b3ecb7bbd66aab07c1de4b3dea6e322d7bae8229b"
+    description: "SHA256 of the curated strain level probiotic evidence TSV"
+  - type: other
+    value: "curated_release_exception_v2_sha256:48782967bd4b8de1805993ad4076235e90e7d508b71acf9c344f927d2ffdc470"
+    description: "SHA256 of the curated release exception v2 TSV"
+  - type: other
+    value: "risk_reclassification_curated_sha256:225ca523ab20b0720c7e7787eca7093fbab361211261f317b3626a68a4b1608b"
+    description: "SHA256 of the curated risk reclassification TSV"

@@ -1,0 +1,17 @@
+{
+  "created_utc_like": "2026-05-27T16:49:34",
+  "mode": "prospective_frozen",
+  "random_seed": 42,
+  "status_order": [
+    "Genomically-prioritized-probiotic-candidate",
+    "Safety-review",
+    "Risk-profile-rejected",
+    "Insufficient-probiogenomic-evidence"
+  ],
+  "thresholds": {
+    "neutral_prior_force_insufficient": 0.8,
+    "probml_used_for_decision": false,
+    "release_exception_requires_no_non_overrideable_risk": true,
+    "strain_level_priority_evidence_level": "high"
+  }
+}

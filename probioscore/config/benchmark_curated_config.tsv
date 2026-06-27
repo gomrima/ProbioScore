@@ -1,0 +1,2 @@
+mode	uses_curated_labels_for_evaluation	uses_curated_labels_for_scoring	description
+benchmark_curated	True	False	Benchmark mode applies expert-curated truth and exceptions. It is not a prospective generalization estimate.

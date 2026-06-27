@@ -1,0 +1,6 @@
+genome_id	ProbioScore_Status	A1_risk	A2_risk	A3_risk	A4_risk
+PRO02_Escherichia_coli_Nissle1917	Risk-profile-rejected	1.0	1.0	1.0	1.0
+NEU01_Hafnia_alvei_environmental	Genomically-prioritized-probiotic-candidate	0.0	0.0	0.0	0.0
+Prob150_Bacillus_amyloliquefaciens_BA11	Safety-review	0.1	0.1	0.1	0.1
+Path01_Clostridium_tetani_reference	Risk-profile-rejected	1.0	1.0	1.0	1.0
+Prob001_Lactobacillus_plantarum_safe	Genomically-prioritized-probiotic-candidate	0.0	0.0	0.0	0.0

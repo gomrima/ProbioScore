@@ -1,0 +1,16 @@
+test_id	scope	status	detail
+E1	engine immutability	PASS	Engine files match manifest.
+E2	AHP weights	PASS	AHP weights JSON matches manifest.
+E3	lockfile	PASS	Threshold lockfile matches manifest.
+E4	gold standard	PASS	probioscore/curated_tables/gold_standard_curated_labels.tsv matches manifest.
+E5	neutral prior	PASS	probioscore/curated_tables/neutral_or_environmental_taxon_prior.tsv matches manifest.
+E6	strain evidence	PASS	probioscore/curated_tables/curated_strain_level_probiotic_evidence.tsv matches manifest.
+E7	release exception	PASS	probioscore/curated_tables/curated_release_exception_v2.tsv matches manifest.
+E8	risk reclassification	PASS	probioscore/curated_tables/risk_reclassification_curated.tsv matches manifest.
+E9	internal 1103 benchmark	PASS	Expected I45 internal counts are reproduced from embedded reference.
+E10	Ounissi 48 benchmark	PASS	Expected Ounissi I45 counts are reproduced from embedded reference.
+E11	mini fixture	PASS	Mini fixture rows: 5. PASS=True.
+E12	portable launchers	PASS	Launchers expose usage banner.
+E13	CI matrix	PASS	CI matrix declares 3 OS and 3 Python versions.
+E14	freeze invariants	PASS	verify_freeze_invariants.py completed.
+E15	source package completeness	PASS	Essential package data are present in the source tree; any locally built wheel is inspected when present.

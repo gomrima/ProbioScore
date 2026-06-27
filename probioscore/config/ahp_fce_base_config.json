@@ -1,0 +1,121 @@
+{
+  "calculator_name": "True ProbioScore FCE & Pure AHP Calculator",
+  "version": "V1.0",
+  "seed": 42,
+  "ahp_weights": {
+    "pillar_weights": {
+      "Survival & Colonization": 0.5804624046114112,
+      "Functional & Metabolic Benefits": 0.4195375953885888
+    },
+    "survival_weights": {
+      "B1: Acid and bile tolerance": 0.3967562316832862,
+      "B2: General stress response": 0.1499428076396088,
+      "B3: Mucus adhesion capacity": 0.2929900636249069,
+      "B4: Exopolysaccharide production": 0.08956994075889362,
+      "B5: Defense systems": 0.07074095629330446
+    },
+    "benefit_weights": {
+      "C1: Antimicrobial activity": 0.2398379707919783,
+      "C2: Beneficial metabolites": 0.2840992011487722,
+      "C3: Carbohydrate metabolism": 0.08779617118044997,
+      "C4: Antioxidant enzymes": 0.1072182562983663,
+      "C5: Immunomodulatory potential": 0.2810484005804332
+    },
+    "safety_weights": {
+      "A1: Antimicrobial resistance": 0.1924545549394046,
+      "A2: Virulence": 0.3052262302096904,
+      "A3: Toxin production": 0.3951436830443453,
+      "A4: Genomic instability": 0.1071755318065597
+    }
+  },
+  "score_column_aliases": {
+    "A1: Antimicrobial resistance": "A1_risk",
+    "A2: Virulence": "A2_risk",
+    "A3: Toxin production": "A3_risk",
+    "A4: Genomic instability": "A4_risk",
+    "B1: Acid and bile tolerance": "B1_score",
+    "B2: General stress response": "B2_score",
+    "B3: Mucus adhesion capacity": "B3_score",
+    "B4: Exopolysaccharide production": "B4_score",
+    "B5: Defense systems": "B5_score",
+    "C1: Antimicrobial activity": "C1_score",
+    "C2: Beneficial metabolites": "C2_score",
+    "C3: Carbohydrate metabolism": "C3_score",
+    "C4: Antioxidant enzymes": "C4_score",
+    "C5: Immunomodulatory potential": "C5_score"
+  },
+  "fce_parameters": {
+    "sigmoid_benefit_kb": 15.0,
+    "sigmoid_benefit_thetab": 0.58,
+    "sigmoid_risk_kr": 1.8,
+    "sigmoid_risk_thetar": 2.5,
+    "sigmoid_pathogen_kp": 10.0,
+    "sigmoid_pathogen_thetap": 0.3,
+    "pathogen_reference_feature_gate_k": 0.35,
+    "pathogen_reference_feature_gate_theta": 20.0,
+    "pathogen_reference_identity_anchor": true
+  },
+  "caps": {
+    "amr": 44.0,
+    "virulence": 154.0,
+    "dbeth": 11.0,
+    "pat": 11.0,
+    "mobile_safety": 26.0,
+    "is_families": 13.0,
+    "mobsuite": 11.0,
+    "prophage": 3.0,
+    "antismash_amr": 3.0,
+    "epssmash": 4.0,
+    "crispr": 4.0,
+    "ta": 287.0,
+    "antismash_stress": 1.0
+  },
+  "blend_weights": {
+    "C1": {
+      "probiosml": 0.5,
+      "bagel5": 0.3,
+      "antismash": 0.2
+    },
+    "B4": {
+      "probiosml": 0.6,
+      "epssmash": 0.4
+    },
+    "B5": {
+      "probiosml": 0.6,
+      "crispr": 0.4
+    },
+    "B2": {
+      "probiosml": 1.0,
+      "antismash_stress": 0.0
+    },
+    "A4": {
+      "base_mobile": 1.0,
+      "tasmania": 0.0
+    }
+  },
+  "high_risk_taxon_guards": [
+    {
+      "pattern": "Streptococcus[_\\s-]+pyogenes",
+      "reason": "known high risk human pathogen species guarded after V4.163 audit"
+    },
+    {
+      "pattern": "Streptococcus[_\\s-]+pneumoniae",
+      "reason": "known high risk human pathogen species guarded after post audit residual escape review"
+    },
+    {
+      "pattern": "Neisseria[_\\s-]+meningitidis",
+      "reason": "known high risk human pathogen species guarded after V4.163 audit"
+    },
+    {
+      "pattern": "Clostridium[_\\s-]+tetani",
+      "reason": "known high risk human pathogen species guarded after V4.163 audit"
+    }
+  ],
+  "weights_provenance": "CURATED_AGG_WEIGHTS_CR0.10 sheet of AHP_ProScore_CALCULATOR_Results.xlsx (AHP_V8 generator, 51 experts, only section CR<=0.10 retained). Safety pillar weight is excluded from the AHP positive utility by design (safety is a non-compensatory veto); the Survival/Benefits split is renormalized to sum 1 over the two positive pillars.",
+  "pillar_weights_full_three_including_safety": {
+    "Safety": 0.6904182297584494,
+    "Survival & Colonization": 0.179700578778268,
+    "Functional & Metabolic Benefits": 0.1298811914632828
+  },
+  "safety_subpillar_weights_note": "The A1 to A4 safety sub-pillar weights recorded under ahp_weights.safety_weights are kept for traceability only and are NOT consumed by the scoring engine. Safety is enforced as a non-compensatory veto through the tier-weighted risk burden and the pathogen-proximity term, not as an AHP weighted sum."
+}

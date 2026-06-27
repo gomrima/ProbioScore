@@ -1,0 +1,7 @@
+recursive-include probioscore/config *.json *.tsv
+recursive-include probioscore/curated_tables *.tsv
+recursive-include probioscore/docs *.md
+recursive-include probioscore/tests/fixtures_v4_mini *.tsv
+recursive-include benchmarks *.tsv
+recursive-include examples *.md *.sh
+include README.md TECHNICAL_INSTALLATION_AND_USER_GUIDE.md CHANGELOG.md CONTRIBUTING.md CITATION.cff LICENSE RELEASE_SIDECARS_README.md PROBIOSCORE_I45_FREEZE_DECISION.tsv FINAL_RELEASE_MANIFEST.tsv

@@ -1,0 +1,2 @@
+mode	uses_ounissi_labels_for_thresholds	uses_probml_for_decision	external600_status	description
+prospective_frozen	False	False	pending_v4_outputs	Prospective mode uses only frozen curated tables and no Ounissi-derived calibration gate.
