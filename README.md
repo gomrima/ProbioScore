@@ -128,12 +128,12 @@ Expected outcome: 9 PASS lines.
 - Engine `true_fce_engine.py`: `d2cb2d9daa98021d2242c31f4fb19d510acd01796f42fc894df835b8712a8ed7`
 - Engine `consolidated_engine.py`: `c06a45cdfbcff7481941d57757d2b49f72270c5a26496dec3620fcd6d8d2ab40`
 - `ahp_weights.json`: `5b122974a3fecfcfe5cd866af876568a42a33b3821a5edc9fc4afd473492e24f`
-- `selected_thresholds_lockfile_v1.json`: `94d913d50e9890aefae77e88770f120b325c80306d1a19fdfeaff56629279d67`
-- `gold_standard_curated_labels.tsv`: `53b3c508489115b585ef9fdd1713503de92a4f676e6e48494f35ca0386900281`
-- `neutral_or_environmental_taxon_prior.tsv`: `9f50c013482f1f2615ea571f908d54a48990f8f315264e7b76428e7594a052ea`
-- `curated_strain_level_probiotic_evidence.tsv`: `2b6092620582575ef71fe42b3ecb7bbd66aab07c1de4b3dea6e322d7bae8229b`
-- `curated_release_exception_v2.tsv`: `48782967bd4b8de1805993ad4076235e90e7d508b71acf9c344f927d2ffdc470`
-- `risk_reclassification_curated.tsv`: `225ca523ab20b0720c7e7787eca7093fbab361211261f317b3626a68a4b1608b`
+- `selected_thresholds_lockfile_v1.json`: `404e39210cb7218456f22d3917cfc288d1cc8fd0d48156d58876a4fb28b43c85`
+- `gold_standard_curated_labels.tsv`: `a034f7d0549208c3aa4ec52d1c6d24fa8ee70e9df8e77522e8b1d31a7f38896e`
+- `neutral_or_environmental_taxon_prior.tsv`: `73749df3e8475962438d957b41d5dc760048e848ec85e29eded14d35d4826ed4`
+- `curated_strain_level_probiotic_evidence.tsv`: `0cfc02afb2b33e7d4cbf9e584c75243f4dbd268c2dc43b5e86dcfe32b2646161`
+- `curated_release_exception_v2.tsv`: `2c6dddb9ee11b6953516a2be393a6c0a5eb9c0ebbed39c433e7392e5358eb358`
+- `risk_reclassification_curated.tsv`: `09375fefe105f9aad7a098f3824668f37e5a28820793cb77312eb368570caa75`
 
 ## Methodology in one paragraph
 
