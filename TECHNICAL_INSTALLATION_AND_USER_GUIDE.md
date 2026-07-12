@@ -198,25 +198,10 @@ Expected result: E1 to E15 must be PASS.
 
 The suite checks engine immutability, AHP weights, lockfile, curated tables, internal 1103 benchmark invariants, Ounissi 48 benchmark invariants, mini fixture behavior, launcher banners, CI matrix declaration, freeze invariants and package completeness.
 
-## 17. Future 600 genome panel
-
-When the V4 outputs for the 600 genome panel are ready:
-
-```bash
-probioscore \
-  --v4-tsv-dir /path/to/600_panel_v4_outputs \
-  --out-dir ./panel_600_results \
-  --mode prospective_frozen \
-  --external-panel-name panel_600_v4 \
-  --skip-visuals
-```
-
-The external panel should be interpreted only after checking pathogen priority, environmental priority, probiotic recall, run manifest integrity and schema compatibility.
-
-## 18. Reproducibility record
+## 17. Reproducibility record
 
 Every run writes a `RUN_MANIFEST.tsv` with SHA256 hashes for outputs. The release itself contains `FINAL_RELEASE_MANIFEST.tsv`.
 
-## 19. Known limitation
+## 18. Known limitation
 
 This calculator is not a regulatory approval tool and not a clinical safety certificate. It is an in silico triage model. Any candidate selected by this tool still requires expert biological review, strain authentication, assembly quality review, mobile AMR interpretation and laboratory validation.
