@@ -202,7 +202,7 @@ ProbioScore_I45_Final_Executable_Calculator_V1_portable/
 If you use ProbioScore in your work, please cite:
 
 ```
-Gomri M.A., Ounissi N.H., El Hadef El Okki M. (2026).
+Gomri M.A., Ounissi N.E., El Hadef El Okki M. (2026).
 ProbioScore: an Analytic Hierarchy Process and Fuzzy Comprehensive Evaluation Framework 
 for Safety-Aware Probiotic Candidate Triage from Bacterial Genomes
 ```
@@ -224,5 +224,5 @@ The I45 engine and curated tables are frozen for this release. See
 | role | name |
 | ---- | ---- |
 | Project lead | Mohamed Amine Gomri |
-| Contributor | Nour El Houda Ounissi |
+| Contributor | Nour ElHouda Ounissi |
 | Contributor | Mohamed El Hadef El Okki |.
