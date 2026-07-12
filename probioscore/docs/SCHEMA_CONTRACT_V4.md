@@ -4,4 +4,4 @@ The raw V4 scoring path expects a directory with V4 TSV subfolders used by the e
 
 For audit replay, the `--input-tsv` path accepts a prebuilt table with `genome_id` and `ProbioScore_Status`. Additional V4 derived columns are preserved.
 
-The prospective external 600 genome panel must be scored with `--mode prospective_frozen`.
+Any external panel (e.g. the 634-genome validation panel) is scored with --mode prospective_frozen.
