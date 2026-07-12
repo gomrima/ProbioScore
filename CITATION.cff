@@ -21,7 +21,7 @@ authors:
     given-names: Mohamed Amine
     affiliation: "Institute of Nutrition, Food and Agri-Food Technologies (INATAA), University of Constantine 1 Frères Mentouri (UC1FM), 7th kilometre, Setif Road, 25000, Constantine, Algeria"
   - family-names: Ounissi
-    given-names: Nour El Houda
+    given-names: Nour ElHouda
     affiliation: "Institute of Nutrition, Food and Agri-Food Technologies (INATAA), University of Constantine 1 Frères Mentouri (UC1FM), 7th kilometre, Setif Road, 25000, Constantine, Algeria"
   - family-names: "El Hadef El Okki"
     given-names: Mohamed
@@ -46,7 +46,7 @@ preferred-citation:
     - family-names: Gomri
       given-names: Mohamed Amine
 	- family-names: Ounissi
-      given-names: Nour El Houda
+      given-names: Nour ElHouda
     - family-names: "El Hadef El Okki"
       given-names: Mohamed
 identifiers:
