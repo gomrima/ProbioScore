@@ -89,7 +89,7 @@ five curated tables are unchanged and remain frozen by SHA256.
 ### Scientific status
 - Decision: `benchmark_curated_locked`.
 - `prospective_release_candidate`: False.
-- `external600_status`: `pending_v4_outputs`.
+- `external validation completed on 634 genomes in the 1.0 release`.
 - ProbML is reported only as a comparator and never as a decision input.
 
 ### Validation
