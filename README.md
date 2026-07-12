@@ -144,7 +144,7 @@ weights from the CURATED_AGG_WEIGHTS_CR0.10 expert panel (51 experts,
 section consistency ratio at or below 0.10; see
 `probioscore/docs/WEIGHTS_PROVENANCE.md`). The safety axis evaluates four
 risk dimensions (A1 antimicrobial resistance, A2 virulence, A3 toxins,
-A4 mobile safety) as a non-compensatory veto rather than an AHP weighted sum. A true fuzzy
+A4 genomic instability) as a non-compensatory veto rather than an AHP weighted sum. A true fuzzy
 comprehensive evaluation produces continuous memberships
 (`FCE_Membership_*`) whose partition exactly sums to 1.0. The I45
 governance layer then applies, in order: an independent neutral
