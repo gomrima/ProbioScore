@@ -1,4 +1,4 @@
-# Run on the future 600 genome V4 panel
+# Run on an external V4 panel
 
 Use this command after V4 outputs are available:
 
